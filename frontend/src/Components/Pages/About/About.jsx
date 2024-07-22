@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../../Navigation/Navbar'
 
 function About() {
   return (
-    <div>Testing about</div>
+    <div>
+      <Navbar/>
+      <h1 className='mt-10'>about</h1></div>
   )
 }
 
